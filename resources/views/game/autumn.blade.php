@@ -6,10 +6,10 @@
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="format-detection" content="telephone=no" />
-    <link rel="stylesheet" href="css/autumn_min.css">
+    <link rel="stylesheet" href="/css/autumn/autumn_min.css">
     <link href='http://api.youziku.com/webfont/CSS/57b13146f629d80cfc431e59' rel='stylesheet' type='text/css' />
-    <script src="js/thirty_flex.js" charset="utf-8" type="text/javascript"></script>
-    <script src="js/jquery.js" charset="utf-8" type="text/javascript"></script>
+    <script src="/js/autumn/thirty_flex.js" charset="utf-8" type="text/javascript"></script>
+    <script src="/js/autumn/jquery.js" charset="utf-8" type="text/javascript"></script>
     <base target="_blank" />
 </head>
 <body class="room">
@@ -17,27 +17,27 @@
         <div class="main">
             <div id="canvas-container"></div>
             <audio id="audios" preload="load">
-                <source src="sound/yao.ogg" type="audio/ogg">
-                <source src="sound/yao.mp3" type="audio/mpeg">
+                <source src="/sound/yao.ogg" type="audio/ogg">
+                <source src="/sound/yao.mp3" type="audio/mpeg">
             </audio>
             <audio id="cheer" preload="load">
-                <source src="sound/cheer.ogg" type="audio/ogg">
-                <source src="sound/cheer.mp3" type="audio/mpeg">
+                <source src="/sound/cheer.ogg" type="audio/ogg">
+                <source src="/sound/cheer.mp3" type="audio/mpeg">
             </audio>
             <audio id="clap" preload="load">
-                <source src="sound/clap.ogg" type="audio/ogg">
-                <source src="sound/clap.mp3" type="audio/mpeg">
+                <source src="/sound/clap.ogg" type="audio/ogg">
+                <source src="/sound/clap.mp3" type="audio/mpeg">
             </audio>
             <audio id="hail" preload="load">
-                <source src="sound/hail.ogg" type="audio/ogg">
-                <source src="sound/hail.mp3" type="audio/mpeg">
+                <source src="/sound/hail.ogg" type="audio/ogg">
+                <source src="/sound/hail.mp3" type="audio/mpeg">
             </audio>
             <div class="rule-btn rule">游戏规则</div>
             <div class="award-btn rule">活动奖品</div>
             <div class="top-scenery">
                 <div class="business-pic">
                     <a href="" title="">
-                        <img src="images/autumn_lottery_top.jpg" alt="" title="">
+                        <img src="/images/autumn/autumn_lottery_top.jpg" alt="" title="">
                     </a>
                 </div>
                 <div class="moon"></div>
@@ -315,7 +315,7 @@
                 <i class="close"></i>
             </div>
             <div class="rule-detail">
-                <img src="images/autumn_rule.gif" alt="" title="">
+                <img src="/images/autumn/autumn_rule.gif" alt="" title="">
             </div>
         </div>
     </div>
@@ -349,7 +349,7 @@
         </div>
     </div>
     <div class="bargain-footer" >Copyright © 2015 - 2016 云媒互动. All Rights Reserved</div>
-    <script src="js/autumn.js" charset="utf-8" type="text/javascript"></script>
+    <script src="/js/autumn/autumn.js" charset="utf-8" type="text/javascript"></script>
     <script type="text/javascript">
     </script>
     <script type="text/javascript" src="http://tajs.qq.com/stats?sId=57975707" charset="UTF-8"></script>
