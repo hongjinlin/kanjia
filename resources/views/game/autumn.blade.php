@@ -293,7 +293,6 @@
                     您今日的博饼次数已达上限
                 </div>
                 <div class="code-change">
-                  <!--   <img src="<?php echo Yaf_Registry::get('static_url');?>images/xiamentop_code.jpg" alt="" title=""> -->
                 </div>
                 <div class="title" style="display:none;"></div>
             </div>
