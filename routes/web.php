@@ -15,6 +15,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/haha', function () {
-    return '我来鸟';
-});
+Route::get('game/autumn', 'GameController@autumn');
