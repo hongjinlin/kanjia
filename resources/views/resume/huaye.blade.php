@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="/css/huaye/index.css">
     <script src='/js/huaye/stopExecutionOnTimeout.js?t=1'></script>
     <script src="/js/huaye/jquery.js" charset="utf-8" type="text/javascript"></script>
-
 </head>
 <body>
     <div class="effect">
