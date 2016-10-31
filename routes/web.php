@@ -16,3 +16,4 @@ Route::get('/', function () {
 });
 
 Route::get('game/autumn', 'GameController@autumn');
+Route::get('resume/huaye', 'ResumeController@huaye');

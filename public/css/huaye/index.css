@@ -1,0 +1,618 @@
+@charset "utf-8";
+/*导航*/
+.nav {
+	position: fixed;
+	z-index: 4;
+	right: 9%;
+	top: 7.54%;
+}
+.nav li {
+	display: inline-block;
+	padding: 0 18px;
+}
+.nav li a {
+	display: inline-block;
+	color: #fff;
+	text-align: center;
+}
+.nav li a strong {
+	display: block;
+	font-size: 13px;
+	height: 16px;
+	line-height: 16px;
+}
+.nav li a span {
+	display: block;
+}
+/*.nav li.active a strong {
+}
+*/
+.nav li a:hover strong{
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	transform: scale(1.2);
+    transition: transform 0.1s;
+    -moz-transition: transform 0.1s;
+    -webkit-transition: transform 0.1s;
+    -o-transition: transform 0.1s;
+}
+/*首页*/
+.home {
+	overflow: hidden;
+	position: relative;
+	z-index: 3;
+	width: 100%;
+	min-height: 300px;
+}
+#scene {
+	width: 106%;
+	height: 106%;
+	margin: -3% 0 0 -3%;
+}
+.home .bg {
+	background: url(../../images/huaye/home_bg.jpg) center center no-repeat;
+	background-size: cover;
+}
+.home .mask {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	width: 100%;
+	height: 100%;
+	background: rgba(36,32,83,.3);
+}
+.home .content {
+	position: absolute;
+	z-index: 4;
+	left: 50%;
+	top: 50%;
+	margin: -103px 0 0 87px;
+	text-align: center;
+}
+.home .content h1 {
+	color: #fff;
+	font-size: 61px;
+	opacity: 0;
+    transition: all 2s;
+    -moz-transition: all 2s;
+    -webkit-transition: all 2s;
+    -o-transition: all 2s;
+}
+.home .content h2 {
+	color: #fff;
+	-webkit-transform: translateY(30px);
+	-moz-transform: translateY(30px);
+	-ms-transform: translateY(30px);
+	-o-transform: translateY(30px);
+	transform: translateY(30px);
+    transition: transform 2s;
+    -moz-transition: transform 2s;
+    -webkit-transition: transform 2s;
+    -o-transition: transform 2s;
+}
+.home .content h2 span {
+	display: block;
+	font-size: 15px;
+}
+.home .content h2 strong {
+	display: block;
+	font-size: 13px;
+}
+.home.now .content h1 {
+	opacity: 1;
+}
+.home.now .content h2 {
+	-webkit-transform: translateY(0);
+	-moz-transform: translateY(0);
+	-ms-transform: translateY(0);
+	-o-transform: translateY(0);
+	transform: translateY(0);	
+}
+/*关于我*/
+.about-me {
+	position: relative;
+	height: 662px;
+	background: #1d1b46;
+}
+.about-me .content {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 684px;
+	height: 550px;
+	margin: -275px 0 0 -342px;
+}
+.about-me .content h2 {
+	text-align: center;
+	color: #959595;
+	font-size: 13px;
+}
+.about-me .content > p span {
+	display: block;
+	color: #fff;
+	font-size: 43px;
+	text-align: center;
+	font-weight: bold;
+}
+.about-me .content > p em {
+	display: block;
+	color: #e58239;
+	font-size: 43px;
+	text-align: center;
+	font-weight: bold;
+}
+.about-me .content .intro {
+	padding: 70px 0 37px 0;
+	text-align: center;
+}
+.about-me .content .name {
+	display: inline-block;
+	padding: 0 50px;
+	color: #fff;
+}
+.about-me .content .name strong {
+	font-size: 17px;
+}
+.about-me .content .info {
+	display: inline-block;
+	padding: 0 50px;
+	color: #fff;
+}
+.about-me .content .text p {
+	padding: 0 18px;
+	color: #fff;
+	font-size: 13.6px;
+	text-align: justify;
+	text-indent: 2em;
+	line-height: 24px;
+}
+.about-me .language ul {
+	text-align: center;
+	padding-top: 80px;
+}
+.about-me .language ul li {
+	position: relative;
+	display: inline-block;
+	padding: 0 50px;
+}
+.about-me .language ul li .lang {
+	position: relative;
+	width: 104px;
+	height: 104px;
+	background: #cd6560;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}
+.about-me .language ul li .net {
+	position: absolute;
+	top: -10px;
+	left: -10px;
+	width: 124px;
+	height: 124px;
+	background: url(../../images/huaye/net.png) center center no-repeat;
+	background-size: 100% 100%;
+}
+.about-me .language .lang span {
+	display: block;
+	padding-top: 30px;
+	color: #fff;
+	text-align: center;
+}
+.about-me .language .lang strong {
+	color: #fff;
+	font-size: 19.6px;
+	text-align: center;
+}
+/*我的技能*/
+.skill {
+	position: relative;
+	background: #160d3e;
+	/*height: 662px;*/
+}
+.skill .content {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 684px;
+	height: 550px;
+	margin: -275px 0 0 -342px;
+}
+.skill .content h2 {
+	text-align: center;
+	color: #959595;
+	font-size: 13px;
+}
+.skill .content h3 {
+	padding: 3px 0;
+	color: #e58239;
+	font-size: 17px;
+	font-weight: bold;
+	text-align: center;
+}
+.skill ul {
+	width: 570px;
+	margin: 28px auto 0;
+	border-top: 2px dotted #8b869f;
+}
+.skill ul li {
+	height: 76px;
+	border-bottom: 2px dotted #8b869f;
+}
+.skill ul li .l-title {
+	float: left;
+	width: 106px;
+	height: 76px;
+	padding-right: 20px;
+}
+.skill .l-title span {
+	display: block;
+	height: 76px;
+	color: #fff;
+	font-size: 15px;
+	text-align: center;
+	line-height: 76px;
+}
+.skill ul li .bar-chart {
+	float: left;
+	width: 428px;
+	height: 6px;
+	padding: 35px 0;
+}
+.skill .bar-chart .bar-out {
+	overflow: hidden;
+	width: 100%;
+	height: 6px;
+	background: #0c0722;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+.skill .bar-chart .bar-out span {
+	display: block;
+	width: 0%;
+	height: 100%;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+	background: -moz-linear-gradient(12deg, rgba(91,206,183,1) 0%, rgba(193,113,104,1) 100%); /* ff3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(91,206,183,1)), color-stop(100%, rgba(193,113,104,1))); /* safari4+,chrome */
+	background: -webkit-linear-gradient(12deg, rgba(91,206,183,1) 0%, rgba(193,113,104,1) 100%); /* safari5.1+,chrome10+ */
+	background: -o-linear-gradient(12deg, rgba(91,206,183,1) 0%, rgba(193,113,104,1) 100%); /* opera 11.10+ */
+	background: -ms-linear-gradient(12deg, rgba(91,206,183,1) 0%, rgba(193,113,104,1) 100%); /* ie10+ */
+	background: linear-gradient(78deg, rgba(91,206,183,1) 0%, rgba(193,113,104,1) 100%); /* w3c */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5bceb7', endColorstr='#c17168',GradientType=1 ); /* ie6-9 */
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+.skill.now li:nth-child(1) .bar-out span {
+	width: 84.81%;
+}
+.skill.now li:nth-child(2) .bar-out span {
+	width: 81.78%;
+}
+.skill.now li:nth-child(3) .bar-out span {
+	width: 60.75%;
+}
+.skill.now li:nth-child(4) .bar-out span {
+	width: 41.59%;
+}
+.skill.now li:nth-child(5) .bar-out span {
+	width: 81.87%;
+}
+.skill.now li:nth-child(6) .bar-out span {
+	width: 71.26%;
+}
+/*我的作品*/
+.works {
+	position: relative;
+	background: #1d1b46;
+}
+.works .content {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin: -278.5px 0 0 -500px;
+}
+.works .content h2 {
+	text-align: center;
+	color: #959595;
+	font-size: 13px;
+}
+.works .content > p span {
+	display: block;
+	color: #fff;
+	font-size: 43px;
+	text-align: center;
+	font-weight: bold;
+}
+.works .content > p em {
+	display: block;
+	color: #ffeb07;
+	font-size: 43px;
+	text-align: center;
+	font-weight: bold;
+}
+.works ul {
+	width: 1000px;
+	padding-top: 30px;
+	margin: auto; 
+	text-align: center;
+}
+.works ul li {
+	float: left;
+	width: 228px;
+	padding: 0 10px;
+}
+.works dt {
+	height: 143px;
+    transition: transform 0.5s;
+    -moz-transition: transform 0.5s;
+    -webkit-transition: transform 0.5s;
+    -o-transition: transform 0.5s;
+}
+.works dt:hover {
+	-webkit-transform: translateY(-5px);
+	-moz-transform: translateY(-5px);
+	-ms-transform: translateY(-5px);
+	-o-transform: translateY(-5px);
+	transform: translateY(-5px);
+	-webkit-box-shadow: 0 0 50px 5px rgba(0,0,0,.5);
+	-moz-box-shadow: 0 0 50px 5px rgba(0,0,0,.5);
+	box-shadow: 0 0 50px 5px rgba(0,0,0,.5);
+}
+.works dt a {
+	display: block;
+	height: 100%;
+}
+.works dt img {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.works dd {
+	padding: 10px 0;
+}
+.works dd strong {
+	display: block;
+	text-align: center;
+	height: 16px;
+	color: #fff;
+	font-size: 13px;
+	line-height: 16px;
+}
+.works dd span {
+	display: block;
+	height: 20px;
+	color: #a5a5a5;
+	font-size: 11.6px;
+	line-height: 20px;
+	text-align: center;
+}
+/*联系方式*/
+.contact {
+	position: relative;
+	height: 662px;
+	background: #160d3e;
+}
+.contact .right-pic {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 50%;
+	height: 100%;
+	background: url(../../images/huaye/contact_bg.jpg) center center no-repeat;
+	background-size: cover;
+}
+.contact .content {
+	position: absolute;
+	top: 50%;
+	right: 50%;
+	width: 302px;
+	height: 580px;
+	padding: 0 20px;
+	margin-top: -290px;
+}
+.contact h2 {
+	color: #959595;
+	font-size: 13.66px;
+}
+.contact .content > p {
+	font-size: 20.48px;
+	color: #fff;
+	padding-bottom: 40px;
+}
+.contact .content > div {
+	padding-top: 36px;
+}
+.contact .content > div h3 {
+	color: #fff;
+	font-size: 20.48px;
+}
+.contact .content > div p {
+	color: #ffeb07;
+	font-size: 15px;
+	text-decoration: underline;
+}
+.contact .content .code {
+	margin-top: 10px;
+	width: 82px;
+	height: 82px;
+}
+.contact .content .code img {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+@keyframes rotate {
+  0% {
+    transform: perspective(400px) rotateZ(20deg) rotateX(-40deg) rotateY(0);
+  }
+  100% {
+    transform: perspective(400px) rotateZ(20deg) rotateX(-40deg) rotateY(-360deg);
+  }
+}
+.stars {
+  transform: perspective(500px);
+  transform-style: preserve-3d;
+  position: fixed;
+  z-index: 2;
+  bottom: 0;
+  perspective-origin: 50% 100%;
+  left: 50%;
+  -webkit-animation: rotate 90s infinite linear;;
+  -moz-animation: rotate 90s infinite linear;;
+  -o-animation: rotate 90s infinite linear;;
+  animation: rotate 90s infinite linear;;
+}
+
+.star {
+  width: 2px;
+  height: 2px;
+  background: #F7F7B6;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform-origin: 0 0 -300px;
+  transform: translate3d(0, 0, -300px);
+  backface-visibility: hidden;
+}
+/*首页效果*/
+.effect {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 6;
+	width: 0;
+	height: 0;
+}
+.effect .square {
+	position: absolute;
+	display: block;
+	width: 6px;
+	height: 6px;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+  -webkit-animation: squares 8s infinite linear;;
+  -moz-animation: squares 8s infinite linear;;
+  -o-animation: squares 8s infinite linear;;
+  animation: squares 8s infinite linear;;
+}
+.effect .square:nth-child(1) {
+	left: 123px;
+	top: 300px;
+	background: #fc7432;
+  -webkit-animation: squares 8s infinite 0.5s linear;;
+  -moz-animation: squares 8s infinite 0.5s linear;;
+  -o-animation: squares 8s infinite 0.5s linear;;
+  animation: squares 8s infinite 0.5s linear;;
+}
+.effect .square:nth-child(2) {
+	left: 998px;
+	top: 400px;
+	background: #7fc079;
+}
+.effect .square:nth-child(3) {
+	left: 450px;
+	top: 100px;
+	background: #7fc079;
+  -webkit-animation: squares 8s infinite 0.7s linear;;
+  -moz-animation: squares 8s infinite 0.7s linear;;
+  -o-animation: squares 8s infinite 0.7s linear;;
+  animation: squares 8s infinite 0.7s linear;;
+}
+.effect .square:nth-child(4) {
+	left: 865px;
+	top: 123px;
+	background: #7fc079;
+}
+.effect .square:nth-child(5) {
+	left: 934px;
+	top: 200px;
+	background: #e84496;
+  -webkit-animation: squares 8s infinite 0.2s linear;;
+  -moz-animation: squares 8s infinite 0.2s linear;;
+  -o-animation: squares 8s infinite 0.2s linear;;
+  animation: squares 8s infinite 0.2s linear;;
+}
+.effect .square:nth-child(6) {
+	left: 1034px;
+	top: 430px;
+	background: #fc7432;
+}
+.effect .square:nth-child(7) {
+	left: 875px;
+	top: 532px;
+	background: #e84496;
+  -webkit-animation: squares 8s infinite 0.3s linear;;
+  -moz-animation: squares 8s infinite 0.3s linear;;
+  -o-animation: squares 8s infinite 0.3s linear;;
+  animation: squares 8s infinite 0.3s linear;;
+}
+.effect .square:nth-child(8) {
+	left: 774px;
+	top: 135px;
+	background: #fc7432;
+}
+.effect .square:nth-child(9) {
+	left: 523px;
+	top: 214px;
+	background: #7fc079;
+  -webkit-animation: squares 8s infinite 0.4s linear;;
+  -moz-animation: squares 8s infinite 0.4s linear;;
+  -o-animation: squares 8s infinite 0.4s linear;;
+  animation: squares 8s infinite 0.4s linear;;
+}
+.effect .square:nth-child(10) {
+	left: 350px;
+	top: 365px;
+	background: #fc7432;
+  -webkit-animation: squares 8s infinite 0.6s linear;;
+  -moz-animation: squares 8s infinite 0.6s linear;;
+  -o-animation: squares 8s infinite 0.6s linear;;
+  animation: squares 8s infinite 0.6s linear;;
+}
+@keyframes squares {
+	0% {
+		transform: rotate(45deg) translate(8px,0px);
+	}
+	10% {
+		transform: rotate(45deg) translate(8px,8px);
+	}
+	20% {
+		transform: rotate(45deg) translate(0px,8px);
+	}
+	30% {
+		transform: rotate(45deg) translate(0px,0px);
+	}
+	40% {
+		transform: rotate(45deg) translate(0px,-8px);
+	}
+	50% {
+		transform: rotate(45deg) translate(8px,-8px);
+	}
+	60% {
+		transform: rotate(45deg) translate(0px,0px);
+	}
+	70% {
+		transform: rotate(45deg) translate(-8px,0px);
+	}
+	80% {
+		transform: rotate(45deg) translate(0px,8px);
+	}
+	90% {
+		transform: rotate(45deg) translate(0px,0px);
+	}
+	100% {
+		transform: rotate(45deg) translate(8px,0px);
+	}
+}

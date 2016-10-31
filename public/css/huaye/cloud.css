@@ -1,0 +1,102 @@
+@charset "utf-8";
+html {
+	height: 100%;
+}
+.static-bg {
+	position: fixed;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: url(../images/cloud_bg.jpg) center center no-repeat;
+	background-size: cover;
+}
+/*头部*/
+.header {
+	height: 92px;
+	padding: 112px 0;
+	background: #44b3e8;
+	text-align: center;
+}
+.header h1 {
+	padding: 10px 0;
+	color: #fff;
+	font-size: 32px;
+	font-weight: bold;
+}
+.header span {
+	display: block;
+	color: #fff;
+	font-size: 12px;
+}
+/*大图*/
+.big-pic img {
+	display: block;
+	width: 100%;
+}
+/*界面展示*/
+.product-pic {
+	background: #86d0f3;
+}
+.pro-title {
+	padding: 41.1px 0 54.79px 0;
+	width: 609.59px;
+	margin: auto;
+}
+.pro-title > div {
+	height: 28.77px;
+	padding-left: 6.85px;
+	border-left: 4px solid #e68615;
+}
+.pro-title h2 {
+	color: #0a0a08;
+	font-size: 17.12px;
+	line-height: 13.7px;
+}
+.pro-title span {
+	color: #0a0a08;
+	font-size: 8.22px;
+	line-height: 20.55px;
+}
+.pro-con {
+	width: 1021.23px;
+	margin: auto;
+}
+.pro-con li {
+	padding-bottom: 100px;
+}
+.pro-con li img {
+	display: block;
+	width: 100%;
+}
+.shadow {
+	-webkit-box-shadow: 2px 15px 50px 4px rgba(30, 14, 7, 0.54);
+	-moz-box-shadow:    2px 15px 50px 4px rgba(30, 14, 7, 0.54);
+	box-shadow:         2px 15px 50px 4px rgba(30, 14, 7, 0.54);
+}
+.footer {
+	padding: 58px 0;
+	background: #323232;
+}
+.footer .back {
+	width: 190px;
+	height: 40px;
+	margin: auto;
+	border: 1px solid #fff;
+}
+.footer .back a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	font-size: 15px;
+	text-align: center;
+	line-height: 40px;
+}
+.footer p {
+	padding-top: 44px;
+	color: #959595;
+	font-size: 13.6px;
+	text-align: center;
+}
