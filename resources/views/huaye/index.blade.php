@@ -207,7 +207,7 @@
                     <li>
                         <dl>
                             <dt>
-                                <a href="cn/fashion.html">
+                                <a href="huaye/fashion">
                                     <img src="/images/huaye/fr.jpg" alt="">
                                 </a>
                             </dt>
@@ -222,7 +222,7 @@
                     <li>
                         <dl>
                             <dt>
-                                <a href="cn/mofan.html">
+                                <a href="huaye/mofan">
                                     <img src="/images/huaye/mofan.jpg" alt="">
                                 </a>
                             </dt>
@@ -237,7 +237,7 @@
                     <li>
                         <dl>
                             <dt>
-                                <a href="cn/smart.html">
+                                <a href="huaye/smart">
                                     <img src="/images/huaye/smart.jpg" alt="">
                                 </a>
                             </dt>
@@ -252,7 +252,7 @@
                     <li>
                         <dl>
                             <dt>
-                                <a href="cn/autumn.html">
+                                <a href="huaye/autumn">
                                     <img src="/images/huaye/autumn.jpg" alt="">
                                 </a>
                             </dt>
@@ -267,7 +267,7 @@
                     <li>
                         <dl>
                             <dt>
-                                <a href="cn/school.html">
+                                <a href="huaye/school">
                                     <img src="/images/huaye/school.jpg" alt="">
                                 </a>
                             </dt>
@@ -282,7 +282,7 @@
                     <li>
                         <dl>
                             <dt>
-                                <a href="cn/jinyin.html">
+                                <a href="huaye/jinyin">
                                     <img src="/images/huaye/jinyin.jpg" alt="">
                                 </a>
                             </dt>
@@ -297,7 +297,7 @@
                     <li>
                         <dl>
                             <dt>
-                                <a href="cn/cloud.html">
+                                <a href="huaye/cloud">
                                     <img src="/images/huaye/cloud.jpg" alt="">
                                 </a>
                             </dt>
@@ -312,7 +312,7 @@
                     <li>
                         <dl>
                             <dt>
-                                <a href="cn/shop.html">
+                                <a href="huaye/shop">
                                     <img src="/images/huaye/shop.jpg" alt="">
                                 </a>
                             </dt>

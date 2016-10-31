@@ -16,4 +16,13 @@ Route::get('/', function () {
 });
 
 Route::get('game/autumn', 'GameController@autumn');
-Route::get('resume/huaye', 'ResumeController@huaye');
+
+Route::get('huaye', 'HuayeController@index');
+Route::get('huaye/autumn', 'HuayeController@autumn');
+Route::get('huaye/cloud', 'HuayeController@cloud');
+Route::get('huaye/fashion', 'HuayeController@fashion');
+Route::get('huaye/jinyin', 'HuayeController@jinyin');
+Route::get('huaye/mofan', 'HuayeController@mofan');
+Route::get('huaye/school', 'HuayeController@school');
+Route::get('huaye/shop', 'HuayeController@shop');
+Route::get('huaye/smart', 'HuayeController@smart');
